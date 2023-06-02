@@ -1,4 +1,4 @@
-@media (max-width: 374px) {
+@media (min-width: 375px) {
   .toolbar-container {
     display: flex;
     align-items: center;
