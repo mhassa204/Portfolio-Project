@@ -96,5 +96,7 @@
 body {
   background: url(./images/background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center center;
+  background-attachment: fixed;
 }
