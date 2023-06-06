@@ -131,11 +131,6 @@
   display: block;
 }
 
-.social li a img {
-  width: 20px;
-  height: 20px;
-}
-
 body {
   /* overflow: hidden; */
 }
@@ -143,6 +138,7 @@ body {
 main {
   background-color: #e5e5e5;
 }
+
 .work-projects {
   width: 327px;
   height: auto;
@@ -189,7 +185,7 @@ main {
   border-radius: 20px;
 }
 
-.project-img-container img{
+.project-img-container img {
   width: 80%;
   height: 70%;
 }
@@ -297,8 +293,12 @@ main {
   transition: background-color 500ms ease;
 }
 
-.full-image{
-width: 295px;
-height: 220px;
+.full-image {
+  width: 295px;
+  height: 220px;
 }
 
+.social li a img {
+  width: 20px;
+  height: 20px;
+}
