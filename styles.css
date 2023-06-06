@@ -13,8 +13,7 @@
   align-items: center;
   justify-content: space-between;
   border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
-  z-index: 100;
+  z-index: 1;
 }
 
 /* Logo container */
@@ -44,7 +43,7 @@
   display: inline-block;
 }
 
-.nav-container{
+.nav-container {
   width: 100px;
   height: 100%;
   padding: 10px 12px;
@@ -56,6 +55,7 @@
 .nav-logo {
   width: 16px;
   height: 20px;
+
   /* margin-top: 12px; */
   padding-top: 2px;
 }
@@ -69,13 +69,14 @@
   background-size: contain;
   background-position: center center;
   background-attachment: fixed;
+
   /* border-bottom-left-radius: 100px; */
   border-radius: 0 0 100px 0;
   padding: 114px 24px;
   overflow-y: hidden;
 }
 
-.name-container{
+.name-container {
   width: 327px;
   height: 180px;
   flex: none;
@@ -91,7 +92,7 @@
   padding: 8px;
 }
 
-.intro-container{
+.intro-container {
   margin: 5px 15px;
   line-height: 24px;
   text-align: start;
@@ -142,5 +143,4 @@
 
 body {
   overflow: hidden;
-
 }
