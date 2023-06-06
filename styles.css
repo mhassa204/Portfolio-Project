@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.toolbar-container {
+  width: 100vw;
+  height: 48px;
+  display: flex;
+  position: fixed;
+  border-bottom-left-radius: 8px;
+  z-index: 100;
+}
+
+/* Logo container */
+.logo-container {
+  width: 100px;
+  height: 100%;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+/* My logo */
+.logo-item {
+  height: 25px;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+.logo {
+  color: #6070ff;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.nav-container {
+  width: 100px;
+  height: 100%;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.nav-logo {
+  width: 16px;
+  height: 20px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 114px 24px;
+  background: url(./images/main/background.svg);
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  border-bottom-left-radius: 8rem;
+  overflow-y: hidden;
+}
+
+.name-container {
+  width: 327px;
+  height: 180px;
+  flex: none;
+  order: 0;
+  margin: 5px;
+
+  /* margin-bottom: 40px; */
+  margin-top: 20px;
+}
+
+.name {
+  font-style: normal;
+  font-size: 40px;
+  line-height: 52px;
+  padding: 8px;
+}
+
+.intro-container {
+  margin: 5px 15px;
+  line-height: 24px;
+  text-align: start;
+}
+
+.introduction {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344563;
+}
+
+.connect {
+  width: 100%;
+  margin-top: 12px;
+  margin-left: 16px;
+}
+
+.connect p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 16px;
+  margin-top: 12px;
+  list-style: none;
+  padding: 0;
+}
+
+.social li {
+  margin-right: 10px;
+}
+
+.social li a {
+  display: block;
+}
+
+.social li a img {
+  width: 20px;
+  height: 20px;
+}
+
+body {
+  overflow: hidden;
+}
+
+main {
+  background-color: #e5e5e5;
+}
