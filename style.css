@@ -300,3 +300,34 @@ header {
   font-weight: 500;
   font-size: 15px;
 }
+
+.contact-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 6.5rem 2.4rem 0.5rem 2.4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.bg {
+  margin-top: 11rem;
+  position: relative;
+  overflow: hidden;
+  background-color: #6070ff;
+  border-radius: 6rem 0 0 0;
+}
+
+.bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 66%;
+  background-image: url('img/contactForm.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  z-index: 0;
+}
