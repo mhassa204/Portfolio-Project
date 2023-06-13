@@ -325,9 +325,65 @@ header {
   right: 0;
   bottom: 0;
   width: 66%;
-  background-image: url('img/contactForm.png');
+  background-image: url('./img/contactForm.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   z-index: 0;
+}
+
+.contact-me h2 {
+  flex-basis: 100%;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  color: #fff;
+  margin-bottom: 0.75rem;
+  text-align: center;
+}
+
+.contact-me p {
+  color: #ebebff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.75rem;
+  flex-basis: 100%;
+  text-align: center;
+  margin-bottom: 3.25rem;
+}
+
+.contact-me button {
+  width: 8.875rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  color: #6070ff;
+  background-color: #fff;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.contact-me form {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.25rem;
+  width: 20.43rem;
+}
+
+.contact-me form input {
+  padding: 0.935rem 2.37rem 0.935rem 1rem;
+  border-radius: 0.5rem;
+  border: 0;
+}
+
+.contact-me form textarea {
+  padding: 0.9375rem 2.375rem 0.9375rem 1rem;
+  width: 20.4375rem;
+  height: 10.625rem;
+  border-radius: 0.5rem;
+  border: 0;
 }
