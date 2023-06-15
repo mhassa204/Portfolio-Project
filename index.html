@@ -9,74 +9,85 @@
   </head>
   <body>
     <main>
-      <div class="front">
+      <section>
         <div class="container">
           <header>
             <nav class="menu">
               <a href="#">My Logo</a>
               <img src="./img/Icon - Menu.png" alt="Icon-menu" />
             </nav>
+            <nav class="menuBar">
+              <a href="#"></a>
+              <div class="menuFlex">
+                <p>Portfolio</p>
+                <p>About</p>
+                <p>Contact</p>
+              </div>
+            </nav>
           </header>
-          <div class="bgimage">
-            <div class="about">
-              <div class="content">
-                <section class="intro">
-                  <h1>
-                    I’m Ali Hassan. <br />
-                    Glad to see <br />
-                    you!
-                  </h1>
-                  <p>
-                    I’m a software developer! I can help you build a product ,
-                    feature or website Look through some of my work and
-                    experience! If you like what you see and have a project you
-                    need coded, don’t hesitate to contact me.
-                  </p>
-                </section>
-                <section>
-                  <div class="connect">
-                    <h4>LET'S CONNECT</h4>
-                  </div>
+          <div class="outerbg">
+            <div class="content">
+              <div class="intro">
+                <h1 class="mimg">
+                  I’m Ali Hassan. <br />
+                  Glad to see <br />
+                  you!
+                </h1>
+                <h1 class="dimg">
+                  I’m Ali Hassan. <br />
+                  Glad to see you!
+                </h1>
+                <p>
+                  I’m a software developer! I can help you build a product ,
+                  feature or website Look through some of my work and
+                  experience! If you like what you see and have a project you
+                  need coded, don’t hesitate to contact me.
+                </p>
+              </div>
+              <div>
+                <div class="connect">
+                  <h4>LET'S CONNECT</h4>
+                </div>
 
-                  <div class="social">
-                    <ul>
-                      <li>
-                        <a href=""
-                          ><img src="/img/Vector.png" alt="Twitter"
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <img src="./img/Linkedin icon.png" alt="Linked in"
-                        /></a>
-                      </li>
-                      <li>
-                        <a href=""><img src="./img/msg.png" alt="message" /></a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <img src="./img/github.png" alt="github"
-                        /></a>
-                      </li>
-                      <li>
-                        <a href="">
-                          <img src="./img/finger.png" alt="finger" />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </section>
+                <div class="social">
+                  <ul>
+                    <li>
+                      <a href=""><img src="/img/Vector.png" alt="Twitter" /></a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <img src="./img/Linkedin icon.png" alt="Linked in"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href=""><img src="./img/msg.png" alt="message" /></a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <img src="./img/github.png" alt="github"
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <img src="./img/finger.png" alt="finger" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <!-----------work section------------>
-      <section class="work-section">
-        <section class="card">
-          <img src="./img/Snapshoot Portfolio (1).png" alt="project image" />
-
+      <!-----------start of middle------->
+      <section class="middle">
+        <div class="card">
+          <img
+            src="./img/Snapshoot Portfolio (1).png"
+            alt="project image"
+            class="mimg" />
+          <img src="./img/snap1.png" alt="project image" class="dimg" />
           <div class="description">
             <h4>Tonic</h4>
             <ul class="list">
@@ -98,9 +109,12 @@
 
             <button class="buttonlrg">See project</button>
           </div>
-        </section>
+        </div>
         <section class="card">
-          <img src="./img/Snapshoot Portfolio (2).png" alt="project image" />
+          <img
+            src="./img/Snapshoot Portfolio (2).png"
+            alt="project image"
+            class="mimg" />
 
           <div class="description">
             <h4>
@@ -126,12 +140,17 @@
 
             <button class="buttonlrg">See project</button>
           </div>
+          <img src="./img/Snap2.png" alt="project image" class="dimg" />
         </section>
         <section class="card">
-          <img src="./img/Snapshoot Portfolio (3).png" alt="project image" />
-
+          <img
+            src="./img/Snapshoot Portfolio (3).png"
+            alt="project image"
+            class="mimg" />
+          <img src="./img/Snap3.png" alt="project image" class="dimg" />
           <div class="description">
-            <h4>Tonic</h4>
+            <h4 class="mimg">Tonic</h4>
+            <h4 class="dimg">Facebook 360</h4>
             <ul class="list">
               <li class="canopy">CANOPY</li>
               <li class="bullet">Back End Dev</li>
@@ -153,13 +172,17 @@
           </div>
         </section>
         <section class="card">
-          <img src="./img/Snapshoot Portfolio (4).png" alt="project image" />
+          <img
+            src="./img/Snapshoot Portfolio (4).png"
+            alt="project image"
+            class="mimg" />
 
           <div class="description">
-            <h4>
+            <h4 class="mimg">
               Multi-Post <br />
               Stories
             </h4>
+            <h4 class="dimg">Uber Navigation</h4>
             <ul class="list">
               <li class="canopy">CANOPY</li>
               <li class="bullet">Back End Dev</li>
@@ -179,78 +202,91 @@
 
             <button class="buttonlrg">See project</button>
           </div>
+          <img src="./img/Snap4.png" alt="project image" class="dimg" />
         </section>
       </section>
-      <!-----------------about myself------------->
-      <section class="about-myself">
-        <div class="myself">
-          <h2>About Myself</h2>
-          <p>
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website. Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hesitate to contact me.
-          </p>
-          <div class="connect">
-            <h4>LET'S CONNECT</h4>
+      <!----------------------------about------------->
+      <section class="aboutMyself">
+        <div class="aboutBgColor">
+          <div class="myself">
+            <h2>About Myself</h2>
+            <p>
+              Hello I’m a software developer! I can help you build a product ,
+              feature or website. Look through some of my work and experience!
+              If you like what you see and have a project you need coded, don’t
+              hesitate to contact me.
+            </p>
+            <div class="connect">
+              <h4>LET'S CONNECT</h4>
+            </div>
+            <div class="social">
+              <ul>
+                <li>
+                  <a href="https://github.com/mhassa204">
+                    <img src="./img/github.png" alt="github"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/mhassa204/">
+                    <img src="./img/Linkedin icon.png" alt="Linked in"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://www.angellist.com/">
+                    <img src="./img/finger.png" alt="finger" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://twitter.com/"
+                    ><img src="./img/Vector.png" alt="Twitter"
+                  /></a>
+                </li>
+                <li>
+                  <a href="https://medium.com/"
+                    ><img src="./img/msg.png" alt="message"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+            <button class="buttonlrg">Get my resume</button>
           </div>
-          <div class="social">
-            <ul>
-              <li>
-                <a href="#"> <img src="./img/github.png" alt="github" /></a>
+          <div class="langlist">
+            <ul class="arrow">
+              <li class="dropdwn">
+                <div class="flexdwn">
+                  <p>Languages</p>
+                  <img
+                    src="./img/Icon - Chevron - Down - Larger.png"
+                    alt="downarrow" />
+                </div>
+
+                <div class="js">
+                  <ul>
+                    <li>
+                      <img src="./img/Ellipse 1.png" alt="js" />Javascript
+                    </li>
+                    <li>
+                      <img src="./img/Ellipse 1 (1).png" alt="HTML" />HTML
+                    </li>
+                    <li><img src="./img/Ellipse 1 (2).png" alt="CSS" />CSS</li>
+                  </ul>
+                </div>
               </li>
-              <li>
-                <a href="#">
-                  <img src="./img/Linkedin icon.png" alt="Linkedin"
-                /></a>
+              <li class="flexdwn">
+                <p>Frameworks</p>
+                <img
+                  src="./img/Icon - Chevron - Right - Larger.png"
+                  alt="sidearrow" />
               </li>
-              <li>
-                <a href="#">
-                  <img src="./img/finger.png" alt="finger" />
-                </a>
-              </li>
-              <li>
-                <a href="#"><img src="./img/Vector.png" alt="Twitter" /></a>
-              </li>
-              <li>
-                <a href="#"><img src="./img/msg.png" alt="message" /></a>
+
+              <li class="flexdwn">
+                <p>Skills</p>
+                <img
+                  src="./img/Icon - Chevron - Right - Larger.png"
+                  alt="sidearrow" />
               </li>
             </ul>
           </div>
-          <button class="buttonlrg">Get my resume</button>
-        </div>
-        <div class="langlist">
-          <ul class="arrow">
-            <li class="dropdwn">
-              <div class="flexdwn">
-                <p>Languages</p>
-                <img
-                  src="./img/Icon - Chevron - Down - Larger.png"
-                  alt="downarrow" />
-              </div>
-
-              <div class="js">
-                <ul>
-                  <li><img src="./img/Ellipse 1.png" alt="js" />Javascript</li>
-                  <li><img src="./img/Ellipse 1 (1).png" alt="HTML" />HTML</li>
-                  <li><img src="./img/Ellipse 1 (2).png" alt="CSS" />CSS</li>
-                </ul>
-              </div>
-            </li>
-            <li class="flexdwn">
-              <p>Frameworks</p>
-              <img
-                src="./img/Icon - Chevron - Right - Larger.png"
-                alt="sidearrow" />
-            </li>
-
-            <li class="flexdwn">
-              <p>Skills</p>
-              <img
-                src="./img/Icon - Chevron - Right - Larger.png"
-                alt="sidearrow" />
-            </li>
-          </ul>
         </div>
       </section>
       <section class="bg">
@@ -261,7 +297,7 @@
             feature that you need built or a project that needs coding. I’d love
             to help with it!
           </p>
-          <form action="https://formspree.io/f/xrgvnbav" method="POST">
+          <form action="https://formspree.io/f/xrgvnbav" method="post">
             <input
               type="text"
               name="name"
@@ -284,7 +320,7 @@
               required
               maxlength="500"></textarea>
             <button type="submit" class="butn">Get in touch</button>
-            <img src="./img/Light.png" alt="" />
+            <img src="./img/Light.png" alt="home end" class="mimg" />
           </form>
         </div>
       </section>
