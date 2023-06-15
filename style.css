@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
+@media screen {min-width: 375px;
+  
 * {
   margin: 0;
   padding: 0;
@@ -403,4 +404,5 @@ header {
 .butn:disabled {
   border: 1px solid #c1c7d0;
   color: #5e6c84;
+}
 }
