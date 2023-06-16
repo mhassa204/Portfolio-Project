@@ -141,6 +141,11 @@ header {
 .card img {
   margin: 6.4%;
   max-width: 100%;
+  transition: all 0.9s linear;
+}
+
+.card img:hover {
+  transform: scale(1.2);
 }
 
 .card h4 {
@@ -218,6 +223,12 @@ header {
   line-height: 1rem;
 }
 
+.smallbtn:hover {
+  background-color: #420933;
+  color: #fff;
+  transform: translate(1ch, 1mm);
+}
+
 .buttonlrg {
   border: 1px solid #6070ff;
   border-radius: 8px;
@@ -235,6 +246,7 @@ header {
 .buttonlrg:hover {
   background-color: #6070ff;
   color: #fff;
+  transform: scale(1.2);
 }
 
 .buttonlrg:active {
@@ -719,4 +731,11 @@ header {
     width: 15vw;
     font-size: 1.11vw;
   }
+}
+
+.social img:hover {
+  transform: scale(1.9);
+}
+.connect h4:hover{
+  transform: translate(2ch, 1mm);
 }
