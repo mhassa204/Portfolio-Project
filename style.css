@@ -141,6 +141,10 @@ header {
 .card img {
   margin: 6.4%;
   max-width: 100%;
+  transition: all 0.9s linear;
+}
+.card img:hover {
+  transform: scale(1.2);
 }
 
 .card h4 {
