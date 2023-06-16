@@ -108,6 +108,9 @@ header {
   list-style: none;
   gap: 5.07vw;
 }
+.social img:hover {
+  transform: scale(1.9);
+}
 
 /* ---------------------middle ------------------------- */
 .middle {
@@ -145,11 +148,6 @@ header {
 }
 .card img:hover {
   transform: scale(1.2);
-}
-
-.smallbtn:hover {
-  background-color: #420933;
-  color: #fff;
 }
 
 .card h4 {
@@ -225,6 +223,11 @@ header {
   font-weight: 500;
   font-size: 0.75rem;
   line-height: 1rem;
+
+}
+.smallbtn:hover {
+  background-color: #420933;
+  color: #fff;
 }
 
 .buttonlrg {
@@ -448,6 +451,7 @@ header {
 
 /* ------------desktop version------------- */
 @media screen and (min-width: 768px) {
+  
   body {
     margin: 0;
     padding: 0;
