@@ -147,6 +147,11 @@ header {
   transform: scale(1.2);
 }
 
+.smallbtn:hover {
+  background-color: #420933;
+  color: #fff;
+}
+
 .card h4 {
   font-weight: 700;
   font-size: 2rem;
