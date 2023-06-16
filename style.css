@@ -736,3 +736,6 @@ header {
 .social img:hover {
   transform: scale(1.9);
 }
+.connect h4:hover{
+  transform: translate(2ch, 1mm);
+}
