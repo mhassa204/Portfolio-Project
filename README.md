@@ -37,6 +37,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [ Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -74,13 +75,17 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
+## 🛠 Live Demo <a name="live-demo"></a>
+
+(https://mhassa204.github.io/Portfolio-Project/)
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **[Linters Added]**
-- **[HTML added]**
-- **[CSS added]**
+- **[Introduction]**
+- **[Project Showcase]**
+- **[Skills]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,9 +137,8 @@ npm hint .
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Desktop version]**
-- [ ] **[contact form]**
-- [ ] **[projects will be added]**
+- [ ] **[Improve UX]**
+- [ ] **[Live project Showcase]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
